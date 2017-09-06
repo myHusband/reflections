@@ -6,31 +6,33 @@ related files in version control
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-
 Working directory is the directory where our files are kept but not in version..
-
 Staging area is the place where we add our files from working directory and it prepares
 our files to go repository.In this stage,we can check if the logic changes were made and
 commit them
-
 Repository is the place where we handle our files in version..
-
 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-
 git diff --staged can be used to make sure that we had made one commit per logical 
  change  because it shows if there is any change between files in staging area and
  files in repository
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branch would be helpful in a situation where we dont want to put commit id so we name
+those commits with our real name...It helps alot in merging 
 
 How do the diagrams help you visualize the branch structure?
+Diagrams show the reachability of different branches in a specific sequence
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+when we merge two branches together,we result into one combined branch which will
+consists both parent branches
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Git's automatic merging cant help to merge when two branch have conflits while 
+merging manually helps alot in merging two branches which have common conflits
